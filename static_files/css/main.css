@@ -29,3 +29,122 @@ ul{
 	width:20px;
 	height: 20px;
 }
+
+
+.experience-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.company-logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    border-radius: 10%;
+}
+
+.experience-details {
+    flex: 1;
+}
+
+.job-title {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.company-name,
+.employment-dates,
+.location {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.responsibilities-title {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.responsibilities {
+    padding-left: 20px;
+}
+
+.education-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.school-logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    border-radius: 10%;
+}
+
+.education-details {
+    flex: 1;
+}
+
+.school-name {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.education-dates,
+.qualification {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.certification-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.certification-logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    border-radius: 10%;
+}
+
+.certification-details {
+    flex: 1;
+}
+
+.certification-title {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.certification-title a {
+    color: black; 
+    text-decoration: none; 
+}
+
+
+.issuer-name,
+.issued-date,
+.credential-id {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.skill-badge {
+    background-color: #17a2b8;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+

@@ -16,9 +16,25 @@
 				<div class="card card-body h-100  border-info" id="profile-wrapper">
 					<img id="profile-pic" src="{% static 'images/Thobani Mjiyakho_Glass.JPG' %}" >
 					<hr>
-					<h4>Hi I'm Thobani Mjiyakho</h4>
-					<p>I'm someone who enjoys solving tough problems and facing new challenges. 
-                        Whether it's figuring out complex issues or exploring new areas</p>
+					<h4>Thobani Mjiyakho</h4>
+
+					<ul class="social-links">
+						<li>
+							<a href="https://www.linkedin.com/in/thobani-mjiyakho-46999b226/" target="_blank">
+								<img class="social" src="{% static 'images/linkedin.png' %}" alt="linkedin">
+							</a>
+						</li>
+						<li>
+							<a href="https://www.linkedin.com/in/thobani-mjiyakho-46999b226/" target="_blank">
+								<img class="social" src="{% static 'images/rocketchat.svg' %}" alt="rocketchat">
+							</a>
+						</li>
+						<li>
+							<a href="https://github.com/thmjiya022" target="_blank">
+								<img class="social" src="{% static 'images/github.png' %}" alt="github">
+							</a>
+						</li>
+					</ul>
 				</div>
 			</div>
 
@@ -30,16 +46,7 @@
                         Whether it's figuring out complex issues or exploring new areas, 
                         I love finding practical solutions. I'm excited about taking on fresh opportunities 
                         and approaching tasks with a new point of view. I'm always looking for ways to be creative and make a positive impact on projects. 
-                        I've successfully dealt with different challenges, and I'm eager to bring my problem-solving skills to a dynamic team. If you're seeking someone with a keen sense of innovation and a track record of overcoming obstacles, I'd love to be part of your team</p>
-
-
-					<ul class="social-links">
-						<li><img class="social" src="{% static 'images/facebook.png' %}"></li>
-						<li><img class="social" src="{% static 'images/linkedin.png' %}"></li>
-						<li><img class="social" src="{% static 'images/twitter.png' %}"></li>
-						<li><img class="social" src="{% static 'images/youtube.png' %}"></li>
-					</ul>
-
+                        I've successfully dealt with different challenges, and I'm eager to bring my problem-solving skills to a dynamic team. If you're seeking someone with a keen sense of innovation and a track record of overcoming obstacles, I'd love to be part of your team.</p>
 				</div>
 			</div>
 		</div>
@@ -49,16 +56,56 @@
 				<div class="card card-body h-100">
 					<h5>My Experience</h5>
 					<hr>
-                    <p></p>
+					<div class="experience-item">
+						<img src="{% static 'images/wethinkcode_logo.jpeg' %}" alt="WeThinkCode Logo" class="company-logo">
+						<div class="experience-details">
+							<h6 class="job-title">Technical Mentor</h6>
+							<p class="company-name">WeThinkCode · Contract</p>
+							<p class="employment-dates">Sep 2023 - Dec 2023 · 4 mos</p>
+							<p class="location">Durban, KwaZulu-Natal, South Africa</p>
+							<p class="responsibilities-title">Responsibilities:</p>
+							<ul class="responsibilities">
+								<li>Dedicate 4 hours per week with my mentees.</li>
+								<li>Introduce them to new projects.</li>
+								<li>Do daily stand ups with them to check how they're holding up and how they're finding the curriculum.</li>
+								<li>Provide the tech support they need.</li>
+								<li>Host workshops for them on the concepts they struggled to understand after a project.</li>
+							</ul>
+						</div>
 					</div>
+				</div>
 			</div>
 
 			<div class="col-md-6">
 				<div class="card card-body h-100">
-					<h5>What I Know</h5>
+					<h5>Education</h5>
 					<hr>
-					<p>Python, Django, HTML/CSS, Java</p>
+					<div class="education-item">
+						<img src="{% static 'images/masibumbane_logo.png' %}" alt="Masibumbane Logo" class="school-logo">
+						<div class="education-details">
+							<h6 class="school-name">Masibumbane High School</h6>
+							<p class="education-dates">Jan 2012 - November 2016</p>
+						</div>
+					</div>
 					
+					<div class="education-item">
+						<img src="{% static 'images/wethinkcode_logo.jpeg' %}" alt="WeThinkCode Logo" class="school-logo">
+						<div class="education-details">
+							<h6 class="school-name">WeThinkCode</h6>
+							<p class="qualification">Qualification: MICT SETA Accredited National Certificate - Information Technologies - NQF level 5 in System Development</p>
+							<p class="education-dates">Sep 2022 - Dec 2023</p>
+						</div>
+					</div>
+
+					<div class="education-item">
+						<img src="{% static 'images/umuzi_logo.png' %}" alt="Umuzi Logo" class="school-logo">
+						<div class="education-details">
+							<h6 class="school-name">Umuzi</h6>
+							<p class="qualification">Qualification: National Certificate in IT (Systems Development)</p>
+							<p class="education-dates">March 2024 - Present</p>
+						</div>
+					</div>
+
 				</div>
 			</div>
 		</div>
@@ -68,15 +115,54 @@
 				<div class="card card-body h-100">
 					<h5>Certificates</h5>
 					<hr>
+					<div class="certification-item">
+						<a href="https://www.sololearn.com" target="_blank">
+							<img src="{% static 'images/sololearn_logo.png' %}" alt="Sololearn Logo" class="certification-logo">
+						</a>
+						<div class="certification-details">
+							<h6 class="certification-title">
+								<a href="https://www.sololearn.com/certificates/CC-NFVXQZHE" target="_blank">
+								Introduction to HTML
+								</a>
+							</h6>
+							<p class="issuer-name">Sololearn</p>
+							<p class="issued-date">Issued Aug 2023</p>
+							<p class="credential-id">Credential ID CC-NFVXQZHE</p>
+						</div>
+					</div>
+
+					<div class="certification-item">
+						<a href="https://www.sololearn.com" target="_blank">
+							<img src="{% static 'images/sololearn_logo.png' %}" alt="Sololearn Logo" class="certification-logo">
+						</a>
+						<div class="certification-details">
+							<h6 class="certification-title">
+								<a href="https://www.sololearn.com/certificates/CC-7QMXZDJY" target="_blank">
+								Java Intermediate
+								</a>
+							</h6>
+							<p class="issuer-name">Sololearn</p>
+							<p class="issued-date">Issued Aug 2023</p>
+							<p class="credential-id">Credential ID CC-7QMXZDJY</p>
+						</div>
+					</div>
 				</div>
 			</div>
 
 			<div class="col-md-6">
 				<div class="card card-body h-100">
-					<h5>My Short Term Goals</h5>
-				<hr>
-				<p></p>
-
+					<h5>Skills</h5>
+					<hr>
+					<div class="skills">
+						<div class="skill-badge">CSS</div>
+						<div class="skill-badge">Python</div>
+						<div class="skill-badge">Docker</div>
+						<div class="skill-badge">Java</div>
+						<div class="skill-badge">JavaScript</div>
+						<div class="skill-badge">HTML</div>
+						<div class="skill-badge">Linux</div>
+					</div>
+			
 				</div>
 			</div>
 		</div>
