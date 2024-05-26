@@ -66,7 +66,8 @@ ul{
 }
 
 .responsibilities {
-    padding-left: 20px;
+    list-style-type: disc;
+    padding-left: 15px;
 }
 
 .education-item {
@@ -132,19 +133,20 @@ ul{
     color: #666;
 }
 
-.skills {
+.skill-row {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-    margin-top: 10px;
 }
 
 .skill-badge {
-    background-color: #17a2b8;
-    color: white;
-    padding: 10px 15px;
-    border-radius: 20px;
-    font-size: 0.9em;
-    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
 }
+
+.skill-badge img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
 
